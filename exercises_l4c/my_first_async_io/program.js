@@ -1,0 +1,8 @@
+var fs = require('fs')
+var file = process.argv[2]
+
+// enter your code below
+
+  var lines = contents.toString().split('\n').length - 1
+  console.log(lines)
+})

@@ -1,9 +1,8 @@
 var fs = require('fs')
 
-var contents = fs.readFileSync(process.argv[2])
-
 // enter your code below
+var contents = ???
 
-
+var lines = contents.toString().split('\n').length - 1
 console.log(lines)
 
