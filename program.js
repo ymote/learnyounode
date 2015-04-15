@@ -1,6 +1,8 @@
-var result = 0
+var fs = require('fs')
 
-for (var i = 2; i < process.argv.length; i++)
-  // enter your code below
+// enter your code below
+var contents = ???
 
-console.log(result)
+var lines = contents.toString().split('\n').length - 1
+console.log(lines)
+
